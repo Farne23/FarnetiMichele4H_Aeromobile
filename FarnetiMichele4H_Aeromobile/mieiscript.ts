@@ -49,7 +49,7 @@ class AL extends A{
     }
 
     Dati(){
-        return("Aereo di tipo: <b>aliante</b> identificativo <b>"+this.identificativo+"</b> efficienza: <b>"+this.EffAerodinamica+"/10</b>");
+        return("Aereo di tipo: <b>aliante</b> identificativo: <b>"+this.identificativo+"</b> efficienza: <b>"+this.EffAerodinamica+"/10</b>");
     }
 
         
@@ -70,7 +70,7 @@ class AM extends A{
     }
 
     Dati(){
-        return("Aereo di tipo: <b>a motore</b> identificativo <b>"+this.identificativo+"</b> potenza: <b>"+this.Potenza+"CV</b>");
+        return("Aereo di tipo: <b>a motore</b> identificativo: <b>"+this.identificativo+"</b> potenza: <b>"+this.Potenza+"CV</b>");
     }
 }
 
